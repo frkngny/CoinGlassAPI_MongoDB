@@ -13,6 +13,8 @@ pip install requests
 pip install json
 ```
 
+
+
 ## Setup
 Set your parameters in ***io_params.json*** file for which segments to get from Coin Glass API and store into database in MongoDB.
 
@@ -44,6 +46,8 @@ self.time_interval = 5  # seconds to wait for the next run.
 ### DataBase to Local
 
 This handles everything itself.
+
+
 
 
 ## Use
