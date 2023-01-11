@@ -10,10 +10,7 @@ def load_io_params():
 
 class LocalSaver:
     def __init__(self):
-        try:
-            self.db_manager = DatabaseManager()
-        except:
-            self.db_manager = DatabaseManager
+        self.db_manager = DatabaseManager()
         self.collections = list(load_io_params().keys())
 
     def save_local(self):
