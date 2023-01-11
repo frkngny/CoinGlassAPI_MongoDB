@@ -1,0 +1,74 @@
+{
+  "perpetual_market": {
+    "url_params": {
+      "symbol": "BTC"
+    },
+    "params": [
+      "exchangeName",
+      "symbol",
+      "quoteCurrency",
+      "price",
+      "fundingRate",
+      "updateTime"
+    ]
+  },
+  "long_short": {
+    "url_params": {
+      "time_type": "m5",
+      "symbol": "BTC"
+    },
+    "params": [
+      "symbol",
+      "longRate",
+      "longVolUsd",
+      "shortRate",
+      "shortVolUsd"
+    ],
+    "list": [
+      "exchangeName",
+      "updateTime"
+    ]
+  },
+  "open_interest": {
+    "url_params": {
+      "symbol": "BTC"
+    },
+    "params": [
+      "exchangeName",
+      "symbol",
+      "openInterest",
+      "openInterestAmount",
+      "updateTime"
+    ]
+  },
+  "option": {
+    "url_params": {
+      "symbol": "BTC"
+    },
+    "params": [
+      "exchangeName",
+      "symbol",
+      "openInterest",
+      "openInterestAmount",
+      "rate",
+      "updateTime"
+    ]
+  },
+  "liquidation_history": {
+    "url_params": {
+      "time_type": "m5",
+      "symbol": "BTC"
+    },
+    "params": [
+      "sellTurnoverNumber",
+      "buyTurnoverNumber",
+      "sellVolUsd",
+      "buyVolUsd",
+      "--createTime",
+      "--price"
+    ],
+    "list": [
+      "exchangeName"
+    ]
+  }
+}
