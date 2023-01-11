@@ -58,4 +58,4 @@ To store data in database from Coin Glass API, you can simply run ***Main.py***.
 > Time interval between each run can depend on the time it takes to get and store data.
 
 ### DataBase to Local
-Simply run ***LocalJsonSaver.py***. This script utilizes ***DatabaseManager.py*** and ***io_params.json***.
+Simply run ***LocalJsonSaver.py***. This script utilizes ***DatabaseManager.py*** and ***io_params.json***. Saved json files will have a name convention as **_segment-timestamp.json_**.
